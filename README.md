@@ -20,7 +20,7 @@ This repository provides the following:
 
 
 # Description
-The following is a guide for using this repository. Please be aware that all data files are in the ".mat" format, which is commonly used by MATLAB. The scripts are provided in ".m" format, which is the standard file type for MATLAB script files. In certain folders, you may come across ".txt" files that provide comments on specific implementations; these files are not crucial to the usage of the repository. 
+The following is a guide for using this repository. Please be aware that all data files are in the ".mat" format, which is commonly used by MATLAB. The scripts are provided in ".m" format, which is the standard file type for MATLAB script files.  
 
 
 
