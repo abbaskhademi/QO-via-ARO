@@ -90,7 +90,7 @@ for i=1:n_x
     end
 end
 %
-for i=1:n_x
+for i=1:m_x
     clear('yalmip');
     x=sdpvar(n_x,1);
     sol=optimize([A*x>=b, x>=0], Z(i,:)*x ,sdpsettings('verbose', 0,'solver','gurobi'));
