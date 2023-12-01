@@ -33,7 +33,7 @@ clear('yalmip');
 x=sdpvar(n_x,1);
 X1 = [A*x>=b, x>=0 ];
 obj = x'*Q*x+c'*x;
-ops = sdpsettings('solver','gurobi','verbose',0, 'gurobi.TimeLimit',time_limit,'savesolveroutput',1);
+ops = sdpsettings('solver','gurobi','verbose',1, 'gurobi.TimeLimit',time_limit,'savesolveroutput',1);
 sol = optimize(X1,obj ,ops);
 if sol.problem ~= 0
     disp("error!")
