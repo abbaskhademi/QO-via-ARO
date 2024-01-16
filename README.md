@@ -1,5 +1,5 @@
 # QO_Via_ARO
-Data and codes of the paper _"Quadratic Optimization Through the Lens of Adjustable Robust Optimization"_ by _A. Khademi and A. Marandi (2023)_.
+Data and codes of the paper _"Quadratic Optimization Through the Lens of Adjustable Robust Optimization"_ by _A. Khademi and A. Marandi (2024)_.
 # Introduction
 This repository provides the following:
 
@@ -38,6 +38,6 @@ If you found this work useful in your research and/or applications, please star 
   title={Quadratic Optimization Through the Lens of Adjustable Robust Optimization},
   author={Khademi, Abbas and Marandi, Ahmadreza},
   journal={Optimization Online},
-  year={2023}
+  year={2024}
 }
 
