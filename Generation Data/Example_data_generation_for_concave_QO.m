@@ -5,8 +5,8 @@
 %      s.t.   Dx <= d,           %
 %             x >= 0.            %
 %================================%
-m = 800;  % Dimension of the variable x
-n = 700;  % Number of constraints
+m = 800;  % Number of constraints
+n = 700;  % Dimension of the variable x
 rng(23);  % Set seed for the random number generator to a specific value
 ell = zeros(n,1);               % Objective is x^T L^T L x + ell^T x
 L = rand(n,n);                  % Generate L
