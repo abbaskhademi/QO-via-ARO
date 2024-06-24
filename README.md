@@ -34,7 +34,7 @@ A. Marandi: a.marandi@tue.nl
 If you found this work useful in your research and/or applications, please star this repository and cite:
 
 ```bibtex
-@article{khademi2024,
+@article{AROQO2024,
   title={Quadratic Optimization Through the Lens of Adjustable Robust Optimization},
   author={Khademi, Abbas and Marandi, Ahmadreza},
   journal={Optimization Online},
