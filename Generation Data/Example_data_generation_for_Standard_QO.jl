@@ -1,3 +1,5 @@
+%  Liuzzi et al. (2019), A new branch-and-bound algorithm for standard quadratic programming problems
+
 function myrandom(r,a,b)
 	r = mod(r*41475557.,1.)
 	return (r,a+r*(b-a))
