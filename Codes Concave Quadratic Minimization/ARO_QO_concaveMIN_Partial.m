@@ -111,7 +111,7 @@ x0 =S(:,end);   %  Set initial point
 while 1
     clear('yalmip');
     y=sdpvar(n_x,1);
-    p3=optimize([A*x>=b, x>=0],x0'*Q*y+0.5*c'*y ,sdpsettings('verbose', 0,'solver','gurobi'));
+    p3=optimize([A*y>=b, y>=0],x0'*Q*y+0.5*c'*y ,sdpsettings('verbose', 0,'solver','gurobi'));
     my_time = my_time + p3.solvertime;
     x0=value(y);
     S=[S,x0];
